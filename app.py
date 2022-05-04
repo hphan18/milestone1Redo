@@ -2,6 +2,8 @@ import flask
 import random
 from tmdb import movieData
 from wiki import get_wikipedia_link
+import os
+
 app = flask.Flask(__name__)
 
 MOVIE_IDS = [
@@ -23,4 +25,7 @@ def main():
         poster_url=poster_url,
         )
 
-app.run()
+app.run(
+    host=os.getenv("IP", "0.0.0.0"),
+    port=os.getenv("PORT", 8080)
+)
