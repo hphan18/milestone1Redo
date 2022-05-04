@@ -1,0 +1,28 @@
+body {
+    background-color: powderblue;
+    border: 2px solid powderblue;
+  }
+  h1 {
+    color: blue;
+    margin-left: 400px;
+    
+  }
+  h2 {
+    color: red;
+    margin-left: 500px;
+  }
+  h3 {
+    color: red;
+    margin-left: 500px;
+  }
+  h4 {
+    color: red;
+    margin-left: 500px;
+  }
+  h5 {
+    color: red;
+    margin-left: 500px;
+  }
+  div {
+    margin-left: 500px;
+  }

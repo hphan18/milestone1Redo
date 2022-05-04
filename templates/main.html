@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link rel="stylesheet" href={{ url_for('static', filename='style.css' ) }} />
+        <h1>Welcome To A Movie Gathering Site </h1>
+    </head>
+    <body>
+        <h2>Movie Title: {{title}}</h2>
+        <h3>"{{tagline}}"</h3>
+        <h4>{{genres}}</h4>
+        <div>
+            <img src="{{poster_url}}" width = 300 height=400/> <br>
+            <a href={{wiki_url}}>This link will redirect you to the movie's wikipedia</a>
+        </div>
+
+    </body>
+</html>
